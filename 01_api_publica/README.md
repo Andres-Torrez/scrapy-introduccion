@@ -1,29 +1,49 @@
-# 🟢 Escenario 1 – Scrapy con API pública (paso a paso)
 
-## 📌 Descripción
-
-En este ejercicio aprenderás a usar **Scrapy** para obtener información de películas desde una **API pública**, sin usar HTML, sin selectores CSS y sin autenticación (API KEY).
+Eso es TODO.  
+Ahora lo aplicamos a tu proyecto de Scrapy.
 
 ---
 
-## 🎯 Objetivo
+# 🟢 README EJEMPLO COMPLETO  
+## (Escenario 1 – API pública sin API key)
 
-- Aprender Scrapy desde cero  
-- Consumir una API pública  
-- Guardar datos en un archivo JSON  
+📄 **Archivo:** `01_api_publica/README.md`
 
----
-
-## 📋 Requisitos
-
-- Python 3.8 o superior  
-- Visual Studio Code  
+👉 **Copia TODO esto tal cual**:
 
 ---
 
-## 🧑‍💻 Paso 0 – Abrir Visual Studio Code
+# Escenario 1 – Scraping con API pública (sin API key)
 
-1. Abre **Visual Studio Code**
-2. Haz clic en **File → Open Folder**
-3. Selecciona la carpeta:
+En este escenario se muestra cómo usar **Scrapy** para consumir una **API pública**
+que no requiere autenticación.  
+Los datos se obtienen directamente en formato **JSON**, sin necesidad de scrapear HTML.
 
+---
+
+## 📌 ¿Qué se aprende en este escenario?
+
+- Qué es una API pública
+- Cómo Scrapy puede consumir APIs
+- Cómo convertir respuestas JSON en datasets
+- Diferencia entre API y scraping HTML
+
+---
+
+## 🛠️ Requisitos
+
+Antes de comenzar necesitas:
+
+- Python 3 instalado
+- Visual Studio Code
+- Conexión a internet
+
+---
+
+## 📁 Paso 1: Crear la carpeta del proyecto
+
+Abrimos Visual Studio Code y creamos una carpeta para el proyecto:
+
+```bash
+mkdir scrapy_api_publica
+cd scrapy_api_publica
