@@ -138,5 +138,4 @@ scrapy crawl productos -o productos.json
 Se genera un archivo productos.json que contiene:
 - Nombre del producto
 - Precio
-- 
 Los datos se obtienen directamente desde el HTML de la página web.
