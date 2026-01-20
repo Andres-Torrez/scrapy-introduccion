@@ -100,6 +100,7 @@ Este repositorio muestra las **tres situaciones más comunes** en el mundo real.
 ---
 
 ## 📂 Estructura del repositorio
+```
 scrapy-web-scenarios/
 │
 ├── 01_api_publica/
@@ -112,7 +113,7 @@ scrapy-web-scenarios/
 │ └── README.md
 │
 └── README.md
-
+```
 
 
 Cada carpeta representa un escenario distinto y contiene:
