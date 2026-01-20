@@ -86,7 +86,8 @@ cd productos_html
 
 ## 🕷️ Paso 5: Crear el Spider
 
-Creamos un spider que se conectará a la API de TMDB:
+Creamos un spider que extraerá información directamente desde el HTML del sitio web,
+ya que no existe una API pública disponible.
 
 ```bash
 scrapy genspider productos books.toscrape.com
@@ -139,3 +140,16 @@ Se genera un archivo productos.json que contiene:
 - Nombre del producto
 - Precio
 Los datos se obtienen directamente desde el HTML de la página web.
+
+## ⚠️ Consideraciones importantes
+
+- Este método es más frágil que usar APIs
+- Cambios en el diseño de la página pueden romper el scraper
+- Siempre se deben revisar los términos de uso del sitio web
+
+## ✅ Conclusión
+
+Este escenario demuestra cómo Scrapy puede utilizarse cuando **no existe una API pública**.
+El scraping de HTML sigue siendo una técnica útil, aunque más frágil, y debe usarse de forma
+responsable y ética.
+
