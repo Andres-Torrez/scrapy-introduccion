@@ -1,11 +1,3 @@
-## (Escenario 1 – API pública sin API key)
-
-📄 **Archivo:** `01_api_publica/README.md`
-
-👉 **Copia TODO esto tal cual**:
-
----
-
 # Escenario 1 – Scraping con API pública (sin API key)
 
 En este escenario se muestra cómo usar **Scrapy** para consumir una **API pública**
