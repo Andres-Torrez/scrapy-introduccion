@@ -63,6 +63,21 @@ Ejecutamos el siguiente comando en la terminal:
 python -m venv venv
 ```
 
+### Activar el entorno virtual
+
+Una vez creado el entorno virtual, es necesario activarlo para que las dependencias
+se instalen y ejecuten únicamente dentro del proyecto.
+
+#### En Windows
+```bash
+venv\Scripts\activate
+```
+
+#### En macOS o Linux
+```bash
+source venv/bin/activate
+```
+
 
 ## 📦 Paso 3: Instalar Scrapy
 
