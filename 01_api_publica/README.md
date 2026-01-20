@@ -1,10 +1,3 @@
-
-Eso es TODO.  
-Ahora lo aplicamos a tu proyecto de Scrapy.
-
----
-
-# 🟢 README EJEMPLO COMPLETO  
 ## (Escenario 1 – API pública sin API key)
 
 📄 **Archivo:** `01_api_publica/README.md`
@@ -42,9 +35,7 @@ Antes de comenzar necesitas:
 
 
 ## 📁 Paso 1: Crear la carpeta del proyecto
-
 Abrimos Visual Studio Code y creamos una carpeta para el proyecto:
-
 ```bash
 mkdir scrapy_api_publica
 cd scrapy_api_publica
@@ -162,3 +153,9 @@ scrapy crawl peliculas_api -o peliculas.json
 - Scrapy ejecuta el spider definido
 - Se realizan las peticiones a la API
 - Los datos se guardan en un archivo estructurado
+
+## ✅ Conclusión
+Este escenario demuestra que cuando una API pública está disponible,
+Scrapy puede conectarse directamente a la fuente de datos sin necesidad
+de scrapear HTML, lo que resulta en un proceso más rápido y estable.
+
