@@ -78,7 +78,12 @@ la arquitectura básica necesaria para comenzar a trabajar.
 scrapy startproject peliculas_publicas
 cd peliculas_publicas
 ```
+### ✅ Qué logramos con este paso
+- Se inicializa un proyecto Scrapy
+- Se crea la estructura estándar del framework
+- El proyecto queda listo para crear spiders
 
+  
 ## 🕷️ Paso 5: Crear el Spider
 
 Creamos un **spider**, que es el componente de Scrapy encargado de realizar las peticiones
@@ -87,6 +92,10 @@ y extraer los datos desde la fuente indicada, en este caso una **API pública**.
 ```bash
 scrapy genspider peliculas_api ghibliapi.vercel.app
 ```
+### ✅ Qué hace este paso
+- Crea un spider base
+- Define el nombre del spider
+- Prepara el archivo para escribir la lógica de scraping
 
 ## 🧠 Paso 6: Código del Spider
 
@@ -114,6 +123,10 @@ class PeliculasApiSpider(scrapy.Spider):
             }
 
 ```
+### 🔍 Qué se aprende en este paso
+- Cómo Scrapy consume una API
+- Cómo parsear respuestas JSON
+- Cómo generar datos estructurados con `yield`
 
 ## ▶️ Paso 7: Ejecutar el Spider
 
