@@ -22,7 +22,7 @@ Antes de comenzar necesitas:
 - Una API Key válida
   
 
-## 🔑 Paso 0: Obtener una API Key
+## 🔑 Paso 1: Obtener una API Key
 
 Para este ejemplo utilizamos la API de **The Movie Database (TMDB)**.
 
@@ -93,8 +93,6 @@ scrapy startproject peliculas_tmdb
 cd peliculas_tmdb
 ```
 
-
-
 ---
 
 ## 🕷️ Paso 5: Crear el Spider
@@ -144,6 +142,7 @@ class Top2025Spider(scrapy.Spider):
             }
 ```
 
+⚠️ Recuerda reemplazar TU_API_KEY_AQUI por tu propia clave.
 
 ---
 
