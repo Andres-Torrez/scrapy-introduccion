@@ -122,4 +122,9 @@ Este comando inicia el proceso de scraping y guarda los datos obtenidos en un ar
 
 ```bash
 scrapy crawl peliculas_api -o peliculas.json
+```
 
+### ✅ Qué ocurre en este paso
+- Scrapy ejecuta el spider definido
+- Se realizan las peticiones a la API
+- Los datos se guardan en un archivo estructurado
