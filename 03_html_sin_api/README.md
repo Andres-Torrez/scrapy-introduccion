@@ -76,8 +76,8 @@ pip install scrapy
 Creamos la estructura base del proyecto usando Scrapy:
 
 ```bash
-scrapy startproject peliculas_tmdb
-cd peliculas_tmdb
+scrapy startproject productos_html
+cd productos_html
 ```
 
 
