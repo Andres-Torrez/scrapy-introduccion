@@ -40,6 +40,7 @@ Antes de comenzar necesitas:
 
 ---
 
+
 ## 📁 Paso 1: Crear la carpeta del proyecto
 
 Abrimos Visual Studio Code y creamos una carpeta para el proyecto:
@@ -48,6 +49,7 @@ Abrimos Visual Studio Code y creamos una carpeta para el proyecto:
 mkdir scrapy_api_publica
 cd scrapy_api_publica
 ```    
+
 
 ## 🧪 Paso 2: Crear y activar el entorno virtual
 
@@ -61,6 +63,7 @@ Ejecutamos el siguiente comando en la terminal:
 python -m venv venv
 ```
 
+
 ## 📦 Paso 3: Instalar Scrapy
 
 Con el entorno virtual activo, instalamos **Scrapy**, el framework que usaremos para realizar web scraping.
@@ -68,6 +71,7 @@ Con el entorno virtual activo, instalamos **Scrapy**, el framework que usaremos 
 ```bash
 pip install scrapy
 ```
+
 
 ## 🏗️ Paso 4: Crear el proyecto Scrapy
 
@@ -83,7 +87,7 @@ cd peliculas_publicas
 - Se crea la estructura estándar del framework
 - El proyecto queda listo para crear spiders
 
-  
+
 ## 🕷️ Paso 5: Crear el Spider
 
 Creamos un **spider**, que es el componente de Scrapy encargado de realizar las peticiones
@@ -96,6 +100,7 @@ scrapy genspider peliculas_api ghibliapi.vercel.app
 - Crea un spider base
 - Define el nombre del spider
 - Prepara el archivo para escribir la lógica de scraping
+
 
 ## 🧠 Paso 6: Código del Spider
 
@@ -127,6 +132,7 @@ class PeliculasApiSpider(scrapy.Spider):
 - Cómo Scrapy consume una API
 - Cómo parsear respuestas JSON
 - Cómo generar datos estructurados con `yield`
+
 
 ## ▶️ Paso 7: Ejecutar el Spider
 
